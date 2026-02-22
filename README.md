@@ -4,7 +4,7 @@ This project uses prmon and its built-in burner tests to generate synthetic syst
 It then applies ```IsolationForest``` from ```scikit-learn``` library and evaluates it.
 
 # GitHub repository structure
-
+```
 ├── generate.py              # process workload generator (uses prmon)
 ├── analysis.ipynb           # Data analysis and anomaly detection
 ├── report.pdf               # report
@@ -12,7 +12,7 @@ It then applies ```IsolationForest``` from ```scikit-learn``` library and evalua
 ├── dataset.csv              # Generated prmon dataset (optional)
 ├── requirements.txt         # list of dependencies
 └── README.md
-
+```
 # Generating the Dataset with anomalies
 
 Please run prmon while executing the workload generator:
