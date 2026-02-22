@@ -49,7 +49,7 @@ Lastly, it evaluates statistical metrics, such as precision, recall and F1 score
 
 ```IsolationForest```'s performance is:
 * Precision score: 74.5 %
-* Recall score: 0.74
+* Recall score: 74%
 * F1 score: 74.25%
 - Initial anomaly detection rate: 100% (15/15 anomalies detected on the event level)
 
