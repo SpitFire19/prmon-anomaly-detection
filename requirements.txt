@@ -1,0 +1,13 @@
+## Requirements
+
+### System
+- OS Linux (needed for prmon)
+- prmon installed
+- burner tests compiled
+
+### Python
+- Python 3.10+
+- numpy
+- pandas
+- matplotlib
+- scikit-learn
