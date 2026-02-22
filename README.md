@@ -26,7 +26,7 @@ This generates:
 We used -i 0.5 as this makes prmon generate 1 data entry per second, otherwise it is 2 seconds for -i 1.
 
 # Note on reproducibility
-The results obtained are fully reproducible as all the seed set in Python code are fixed, so the output will be the same.
+The results obtained are fully reproducible as all the seeds set in Python code are fixed, so the output will be the same.
 
 # Running anomaly detector
 
@@ -51,7 +51,11 @@ Lastly, it evaluates statistical metrics, such as precision, recall and F1 score
 * Precision score: 74.5 %
 * Recall score: 0.74
 * F1 score: 74.25%
-- Initial anomaly detection rate: 100% (15/15 anomalies detected as on the event level)
+- Initial anomaly detection rate: 100% (15/15 anomalies detected on the event level)
 
-Detailed analysis is available is report.pdf.
-All the information on the test is available in anomaly_detection.ipynb
+For the detailed analysis, please refer to [report.pdf](report.pdf).
+All the information on the test is available in [anomaly_detection.ipynb](anomaly_detection.ipynb)
+
+# AI usage
+Except for routine tasks, AI was only used to get information on bash syntax such as loops and random number generation (unused in the final version). 
+AI was also used to obtain help on how to convert a part of .ipynb file to pdf file.
